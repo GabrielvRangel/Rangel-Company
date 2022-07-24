@@ -1,0 +1,43 @@
+.navbar{
+    display: block;
+    padding: 20px;
+    margin: 0px;    
+    background-color: #34333b;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 98%;
+}
+
+.whatsappbutton {
+    background: #25ea5f;
+    background-image: -webkit-linear-gradient(top, #25ea5f, #2aed63);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-size: 15px;
+    padding: 10px;    
+    text-shadow: 4px 1px 20px #34333b;
+    border: solid #34333b;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+
+ .whatsappbutton:hover {
+    background: #BABDBA;
+    background-image: -webkit-linear-gradient(top, #62D900, #488863);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
+.tituloprincipal{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
