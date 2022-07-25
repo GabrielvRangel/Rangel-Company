@@ -1,7 +1,7 @@
 .navbar{
-    display: block;
+    display: inline-block;
     padding: 20px;
-    margin: 0px;    
+    margin: auto;    
     background-color: #34333b;
     overflow: hidden;
     position: fixed;
@@ -28,13 +28,21 @@
  }
 
  .whatsappbutton:hover {
-    background: #BABDBA;
-    background-image: -webkit-linear-gradient(top, #62D900, #488863);
+    background: #25ea5f;
+    background-image: -webkit-linear-gradient(top, #25ea5f, #2aed63);
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
+    color: #FFFFFF;
+    font-size: 15px;
+    padding: 10px;    
+    text-shadow: 4px 1px 20px #34333b;
+    border: solid #eeff00;
     text-decoration: none;
- }
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    }
 
 .tituloprincipal{
     color: white;
