@@ -1,4 +1,6 @@
-.textosimples{
+@charset "UTF-8";
+
+p{
     margin: auto;
     padding: 20px;
     min-width: 320px;
