@@ -1,8 +1,37 @@
 @charset "UTF-8";
 
+body {
+    margin-top: 100px;
+    background-image: linear-gradient(to right,#f7f7f8 ,#e6e6f0);
+}
+
 p{
     margin: auto;
     padding: 20px;
     min-width: 320px;
     max-width: 1920px;
+}
+
+.conteiner{
+    display: flex;
+    height: 500px;
+    width:  100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.bloco{
+    margin: 10px;
+    height: 100%;
+    width: 40%;
+    flex: 350px;
+}
+
+div#conteudo1{
+}
+
+
+div#conteudo2{
+    background-image: url('CEO.Foto.jfif');
+    border-radius: 30px;
 }

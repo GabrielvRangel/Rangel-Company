@@ -28,11 +28,12 @@ h1{
     font-size: 15px;
     text-shadow: 4px 1px 20px #34333b;
     border: solid #090d36ce ;
-    float: right;
+    position: absolute;
+    right: 0;
+    text-align: center;
  }
 
  .whatsappbutton:hover {
-    display: inline-block;
     height: 60px;  
     width: 180px;
     background: #25ea5f;
