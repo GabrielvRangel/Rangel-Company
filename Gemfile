@@ -6,10 +6,9 @@ ruby '3.1.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.6'
-# Use postgre as the database for Active Record
-gem 'pg', '~> 1.1'
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
+gem 'pg'
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 6'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
@@ -26,8 +25,22 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
-# Reduces boot times through caching; required in config/boot.rb
-gem 'bootsnap', '>= 1.4.4', require: false
+
+
+group :production do
+  # Reduces boot times through caching; required in config/boot.rb
+  gem 'bootsnap', '>= 1.4.4', require: false
+
+  # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+  gem 'tzinfo-data'
+
+  gem 'aws-sdk-s3'
+
+  gem 'rails_12factor', group: :production
+
+  gem 'net-smtp'
+
+end
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -49,12 +62,3 @@ group :test do
   # Easy installation and use of web drivers to run system tests with browsers
   gem 'webdrivers'
 end
-
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data'
-
-gem 'aws-sdk-s3'
-
-gem 'rails_12factor', group: :production
-
-gem 'net-smtp'
