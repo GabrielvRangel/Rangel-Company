@@ -56,3 +56,5 @@ gem 'tzinfo-data'
 gem 'aws-sdk-s3'
 
 gem 'rails_12factor', group: :production
+
+gem 'net-smtp'
