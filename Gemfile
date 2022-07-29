@@ -8,7 +8,7 @@ gem 'rspec'
 ruby '3.1.2'
 
 gem 'bundler', '2.3.19'
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
+# Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main' 
 gem 'rails', '~> 6.1.3', '>= 6.1.3.2'
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
