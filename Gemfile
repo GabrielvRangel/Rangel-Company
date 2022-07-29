@@ -29,7 +29,7 @@ gem 'jbuilder', '~> 2.7'
 
 group :production do
   # Reduces boot times through caching; required in config/boot.rb
-  gem 'bootsnap', '>= 1.4.4', require: false
+  gem 'bootsnap', '1.4.4', require: false
 
   # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
   gem 'tzinfo-data'
