@@ -7,16 +7,16 @@ ruby '3.1.2'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '6.1.6.1'
 # Use Puma as the app server
-gem 'puma', '5.0'
-gem 'pg', '1.4.0' 
+gem 'puma', '~> 5.0'
+gem 'pg', '~> 1.1'
 # Use SCSS for stylesheets
-gem 'sass-rails', '6.0'
+gem 'sass-rails', '>= 6'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
-gem 'webpacker', '5.0'
+gem 'webpacker', '~> 5.0'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
-gem 'turbolinks', '5.0'
+gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '2.7'
+gem 'jbuilder', '~> 2.7'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
@@ -29,7 +29,7 @@ gem 'jbuilder', '2.7'
 
 group :production do
   # Reduces boot times through caching; required in config/boot.rb
-  gem 'bootsnap', '1.4.4', require: false
+  gem 'bootsnap', '>= 1.4.4', require: false
 
   # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
   gem 'tzinfo-data'
